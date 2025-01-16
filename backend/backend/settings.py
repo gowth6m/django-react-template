@@ -58,7 +58,6 @@ INSTALLED_APPS = [
     "api",
     "rest_framework",
     "corsheaders",
-    "rest_framework_swagger",
 ]
 
 MIDDLEWARE = [
@@ -107,7 +106,7 @@ DATABASES = {
     #     "HOST": os.getenv("DB_HOST"),
     #     "PORT": os.getenv("DB_PORT"),
     # }
-    
+
     # For SQLite
     # ---------------
     'default': {
